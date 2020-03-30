@@ -5,7 +5,7 @@ var anniv_date = date.getDate();
 var anniv_month = date.getMonth() + 1;
 
 // Ganti background berdasarkan waktu
-if (jam > 0 && jam < 18) {
+if (jam >= 4 && jam < 18) {
   document.body.style.background = "url('images/day-sky.jpg')";
 } else {
   document.body.style.background = "url('images/night-sky.jpg')";
