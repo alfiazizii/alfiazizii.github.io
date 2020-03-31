@@ -15,7 +15,7 @@ var anniv_month = date.getMonth() + 1;
 // }
 
 // Ganti background berdasarkan waktu
-if (jam >= 0 && jam <= 18) {
+if (jam > 0 && jam < 18) {
   document.body.style.background = "url('images/day-sky.jpg')";
 } else {
   document.body.style.background = "url('images/night-sky.jpg')";
@@ -56,14 +56,14 @@ if (anniv_date == 12 && anniv_month == 5) {
     backSpeed: 50,
     loop: true
   });
-} else if (jam >= 5 && jam <= 11) {
+} else if (jam >= 5 && jam < 11) {
   var typed = new Typed("#typed", {
     strings: ["Good morning Atha", "Have a nice day", "Stay safe yaa!"],
     typeSpeed: 50,
     backSpeed: 50,
     loop: true
   });
-} else if (jam >= 12 && jam <= 17) {
+} else if (jam > 12 && jam <= 17) {
   var typed = new Typed("#typed", {
     strings: [
       "Hei kamu jangan telat makannya yaa",
