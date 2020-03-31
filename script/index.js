@@ -3,16 +3,6 @@ var date = new Date();
 var jam = date.getHours();
 var anniv_date = date.getDate();
 var anniv_month = date.getMonth() + 1;
-// var sambutan;
-
-// Ganti sambutan bedasarkan waktu
-// if (jam < 12) {
-//   sambutan = `${nama}`;
-// } else if (jam >= 17 && jam <= 24) {
-//   sambutan = `${nama}`;
-// } else if (jam >= 12 && jam <= 17) {
-//   sambutan = `Good Siang, ${nama}❣`;
-// }
 
 // Ganti background berdasarkan waktu
 if (jam > 0 && jam < 18) {
@@ -24,15 +14,6 @@ if (jam > 0 && jam < 18) {
 if (anniv_date == 12 && anniv_month == 5) {
   document.body.style.background = "url('images/anniv-img.jpg')";
 }
-
-// if (anniv_date && anniv_month) {
-//   var typed = new Typed("#typed", {
-//     strings: ["Happy Anniversary", "Wwwww", "Jaadada"],
-//     typeSpeed: 50,
-//     backSpeed: 50,
-//     loop: true
-//   });
-// }
 
 if (anniv_date == 12 && anniv_month == 5) {
   var typed = new Typed("#typed", {
@@ -79,7 +60,7 @@ if (anniv_date == 12 && anniv_month == 5) {
     strings: [
       "Gimana harimu?",
       "Semoga menyenangkan seperti biasanya ya",
-      "Makan dulu sebelum istirahat",
+      "Makan dulu sebelum tidur",
       "Kebiasaan suka ketiduran"
     ],
     typeSpeed: 50,
