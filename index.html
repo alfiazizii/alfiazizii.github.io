@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>For Someone Special</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤</text></svg>">
+        <style>
+            /* Web */
+            html, body {
+                margin: 0;
+                height: 100%;
+                background-size: cover !important;
+                background-position: center !important;
+            }
+            /* Teks */
+            h1 {
+                margin: 0;
+                top: 45%;
+                position: relative;
+                color: #FFFFFF;
+                text-align: center;
+                font-size: 50px;
+                /* font-family: 'Montserrat', sans-serif; */
+                font-family: 'Amaranth', sans-serif;  
+                letter-spacing: 3px;
+            }
+
+            canvas {
+                display: block;
+            }
+
+
+            /* particles.js container */
+            #particles-js {
+                position: absolute;
+                width: 100%;
+                height: 90%;
+            }
+            /* Responsive */
+            @media (max-width: 767px) {
+                h1 {
+                    font-size: 25px;
+                }
+            }
+            /* Teks Animasi */
+            /* @keyframes sambutan {
+                0% {
+                    top: 15%;
+                    opacity: 0;
+                }
+                100% {
+                    top: 45%;
+                    opacity: 1;
+                }
+            } */
+        </style>
+        
+    </head>
+    <body>
+      <div id="particles-js">
+        <h1><span id='typed'></span></h1>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script src="./script/typed.min.js"></script>
+      <script src="./script/index.js"></script>
+    </body>
+</html>
